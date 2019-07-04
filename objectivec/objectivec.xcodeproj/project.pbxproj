@@ -7,97 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		815928812230D0EE0048D565 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 815928802230D0EE0048D565 /* GoogleService-Info.plist */; };
-		81ED322E222FB5160076CBA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED322D222FB5160076CBA4 /* AppDelegate.m */; };
-		81ED3231222FB5160076CBA4 /* FCMNotifierPluginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED3230222FB5160076CBA4 /* FCMNotifierPluginViewController.m */; };
-		81ED3234222FB5160076CBA4 /* FCMNotifierPlugin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ED3232222FB5160076CBA4 /* FCMNotifierPlugin.storyboard */; };
-		81ED3236222FB5170076CBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81ED3235222FB5170076CBA4 /* Assets.xcassets */; };
-		81ED3239222FB5170076CBA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ED3237222FB5170076CBA4 /* LaunchScreen.storyboard */; };
-		81ED323C222FB5170076CBA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED323B222FB5170076CBA4 /* main.m */; };
-		EA4C98E4536A3EC28A8B08E5 /* Pods_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420E799340B50EF7F36DA3D4 /* Pods_client.framework */; };
+		8137A26622CC839700E43AE7 /* FCMNotifierPluginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8137A25B22CC839700E43AE7 /* FCMNotifierPluginViewController.m */; };
+		8137A26722CC839700E43AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8137A25C22CC839700E43AE7 /* Assets.xcassets */; };
+		8137A26822CC839700E43AE7 /* FCMNotifierPlugin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8137A25D22CC839700E43AE7 /* FCMNotifierPlugin.storyboard */; };
+		8137A26922CC839700E43AE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8137A25F22CC839700E43AE7 /* LaunchScreen.storyboard */; };
+		8137A26A22CC839700E43AE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8137A26122CC839700E43AE7 /* main.m */; };
+		8137A26B22CC839700E43AE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8137A26322CC839700E43AE7 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		420E799340B50EF7F36DA3D4 /* Pods_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78D202D928D697AB52F515E3 /* Pods-client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client.debug.xcconfig"; path = "Pods/Target Support Files/Pods-client/Pods-client.debug.xcconfig"; sourceTree = "<group>"; };
-		81592838222FB7DD0048D565 /* client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = client.entitlements; sourceTree = "<group>"; };
-		81592839222FB9C80048D565 /* libiOSObjectiveCPlugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libiOSObjectiveCPlugin.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		815928802230D0EE0048D565 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		81ED322A222FB5160076CBA4 /* client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = client.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		81ED322C222FB5160076CBA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		81ED322D222FB5160076CBA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		81ED322F222FB5160076CBA4 /* FCMNotifierPluginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMNotifierPluginViewController.h; sourceTree = "<group>"; };
-		81ED3230222FB5160076CBA4 /* FCMNotifierPluginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMNotifierPluginViewController.m; sourceTree = "<group>"; };
-		81ED3233222FB5160076CBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FCMNotifierPlugin.storyboard; sourceTree = "<group>"; };
-		81ED3235222FB5170076CBA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		81ED3238222FB5170076CBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		81ED323A222FB5170076CBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81ED323B222FB5170076CBA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E89113259D8A586595EAF5D3 /* Pods-client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client.release.xcconfig"; path = "Pods/Target Support Files/Pods-client/Pods-client.release.xcconfig"; sourceTree = "<group>"; };
+		8137A24322CC837C00E43AE7 /* client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = client.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8137A25A22CC839700E43AE7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8137A25B22CC839700E43AE7 /* FCMNotifierPluginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCMNotifierPluginViewController.m; sourceTree = "<group>"; };
+		8137A25C22CC839700E43AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8137A25E22CC839700E43AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FCMNotifierPlugin.storyboard; sourceTree = "<group>"; };
+		8137A26022CC839700E43AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8137A26122CC839700E43AE7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8137A26222CC839700E43AE7 /* client.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = client.entitlements; sourceTree = "<group>"; };
+		8137A26322CC839700E43AE7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8137A26422CC839700E43AE7 /* FCMNotifierPluginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCMNotifierPluginViewController.h; sourceTree = "<group>"; };
+		8137A26522CC839700E43AE7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		81ED3227222FB5160076CBA4 /* Frameworks */ = {
+		8137A24022CC837C00E43AE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA4C98E4536A3EC28A8B08E5 /* Pods_client.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03ABCA734D2E5524F01BB656 /* Frameworks */ = {
+		8137A21D22CC835600E43AE7 = {
 			isa = PBXGroup;
 			children = (
-				81592839222FB9C80048D565 /* libiOSObjectiveCPlugin.a */,
-				420E799340B50EF7F36DA3D4 /* Pods_client.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		69A2C117584A489AD1DF1B7A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				78D202D928D697AB52F515E3 /* Pods-client.debug.xcconfig */,
-				E89113259D8A586595EAF5D3 /* Pods-client.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		81ED3204222FB4EA0076CBA4 = {
-			isa = PBXGroup;
-			children = (
-				81ED322B222FB5160076CBA4 /* client */,
-				81ED320E222FB4EA0076CBA4 /* Products */,
-				69A2C117584A489AD1DF1B7A /* Pods */,
-				03ABCA734D2E5524F01BB656 /* Frameworks */,
+				8137A25922CC839700E43AE7 /* client */,
+				8137A22722CC835600E43AE7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		81ED320E222FB4EA0076CBA4 /* Products */ = {
+		8137A22722CC835600E43AE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81ED322A222FB5160076CBA4 /* client.app */,
+				8137A24322CC837C00E43AE7 /* client.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		81ED322B222FB5160076CBA4 /* client */ = {
+		8137A25922CC839700E43AE7 /* client */ = {
 			isa = PBXGroup;
 			children = (
-				815928802230D0EE0048D565 /* GoogleService-Info.plist */,
-				81592838222FB7DD0048D565 /* client.entitlements */,
-				81ED322C222FB5160076CBA4 /* AppDelegate.h */,
-				81ED322D222FB5160076CBA4 /* AppDelegate.m */,
-				81ED322F222FB5160076CBA4 /* FCMNotifierPluginViewController.h */,
-				81ED3230222FB5160076CBA4 /* FCMNotifierPluginViewController.m */,
-				81ED3232222FB5160076CBA4 /* FCMNotifierPlugin.storyboard */,
-				81ED3235222FB5170076CBA4 /* Assets.xcassets */,
-				81ED3237222FB5170076CBA4 /* LaunchScreen.storyboard */,
-				81ED323A222FB5170076CBA4 /* Info.plist */,
-				81ED323B222FB5170076CBA4 /* main.m */,
+				8137A25A22CC839700E43AE7 /* AppDelegate.h */,
+				8137A25B22CC839700E43AE7 /* FCMNotifierPluginViewController.m */,
+				8137A25C22CC839700E43AE7 /* Assets.xcassets */,
+				8137A25D22CC839700E43AE7 /* FCMNotifierPlugin.storyboard */,
+				8137A25F22CC839700E43AE7 /* LaunchScreen.storyboard */,
+				8137A26122CC839700E43AE7 /* main.m */,
+				8137A26222CC839700E43AE7 /* client.entitlements */,
+				8137A26322CC839700E43AE7 /* AppDelegate.m */,
+				8137A26422CC839700E43AE7 /* FCMNotifierPluginViewController.h */,
+				8137A26522CC839700E43AE7 /* Info.plist */,
 			);
 			path = client;
 			sourceTree = "<group>";
@@ -105,15 +76,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81ED3229222FB5160076CBA4 /* client */ = {
+		8137A24222CC837C00E43AE7 /* client */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81ED323D222FB5170076CBA4 /* Build configuration list for PBXNativeTarget "client" */;
+			buildConfigurationList = 8137A25622CC837D00E43AE7 /* Build configuration list for PBXNativeTarget "client" */;
 			buildPhases = (
-				E6BACB479727BA70009F6655 /* [CP] Check Pods Manifest.lock */,
-				81ED3226222FB5160076CBA4 /* Sources */,
-				81ED3227222FB5160076CBA4 /* Frameworks */,
-				81ED3228222FB5160076CBA4 /* Resources */,
-				4BE08E7E17DC36C75DA3658F /* [CP] Embed Pods Frameworks */,
+				8137A23F22CC837C00E43AE7 /* Sources */,
+				8137A24022CC837C00E43AE7 /* Frameworks */,
+				8137A24122CC837C00E43AE7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -121,29 +90,24 @@
 			);
 			name = client;
 			productName = client;
-			productReference = 81ED322A222FB5160076CBA4 /* client.app */;
+			productReference = 8137A24322CC837C00E43AE7 /* client.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		81ED3205222FB4EA0076CBA4 /* Project object */ = {
+		8137A21E22CC835600E43AE7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "柾本 耕太郎";
+				ORGANIZATIONNAME = "Kotaro Masamoto";
 				TargetAttributes = {
-					81ED3229222FB5160076CBA4 = {
+					8137A24222CC837C00E43AE7 = {
 						CreatedOnToolsVersion = 10.1;
-						SystemCapabilities = {
-							com.apple.Push = {
-								enabled = 1;
-							};
-						};
 					};
 				};
 			};
-			buildConfigurationList = 81ED3208222FB4EA0076CBA4 /* Build configuration list for PBXProject "objectivec" */;
+			buildConfigurationList = 8137A22122CC835600E43AE7 /* Build configuration list for PBXProject "objectivec" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,107 +115,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 81ED3204222FB4EA0076CBA4;
-			productRefGroup = 81ED320E222FB4EA0076CBA4 /* Products */;
+			mainGroup = 8137A21D22CC835600E43AE7;
+			productRefGroup = 8137A22722CC835600E43AE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81ED3229222FB5160076CBA4 /* client */,
+				8137A24222CC837C00E43AE7 /* client */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		81ED3228222FB5160076CBA4 /* Resources */ = {
+		8137A24122CC837C00E43AE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81ED3239222FB5170076CBA4 /* LaunchScreen.storyboard in Resources */,
-				815928812230D0EE0048D565 /* GoogleService-Info.plist in Resources */,
-				81ED3236222FB5170076CBA4 /* Assets.xcassets in Resources */,
-				81ED3234222FB5160076CBA4 /* FCMNotifierPlugin.storyboard in Resources */,
+				8137A26922CC839700E43AE7 /* LaunchScreen.storyboard in Resources */,
+				8137A26822CC839700E43AE7 /* FCMNotifierPlugin.storyboard in Resources */,
+				8137A26722CC839700E43AE7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		4BE08E7E17DC36C75DA3658F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-client/Pods-client-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-client/Pods-client-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E6BACB479727BA70009F6655 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-client-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		81ED3226222FB5160076CBA4 /* Sources */ = {
+		8137A23F22CC837C00E43AE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81ED3231222FB5160076CBA4 /* FCMNotifierPluginViewController.m in Sources */,
-				81ED323C222FB5170076CBA4 /* main.m in Sources */,
-				81ED322E222FB5160076CBA4 /* AppDelegate.m in Sources */,
+				8137A26A22CC839700E43AE7 /* main.m in Sources */,
+				8137A26622CC839700E43AE7 /* FCMNotifierPluginViewController.m in Sources */,
+				8137A26B22CC839700E43AE7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		81ED3232222FB5160076CBA4 /* FCMNotifierPlugin.storyboard */ = {
+		8137A25D22CC839700E43AE7 /* FCMNotifierPlugin.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				81ED3233222FB5160076CBA4 /* Base */,
+				8137A25E22CC839700E43AE7 /* Base */,
 			);
 			name = FCMNotifierPlugin.storyboard;
 			sourceTree = "<group>";
 		};
-		81ED3237222FB5170076CBA4 /* LaunchScreen.storyboard */ = {
+		8137A25F22CC839700E43AE7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				81ED3238222FB5170076CBA4 /* Base */,
+				8137A26022CC839700E43AE7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -259,7 +171,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		81ED3221222FB4EC0076CBA4 /* Debug */ = {
+		8137A23A22CC835800E43AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		81ED3222222FB4EC0076CBA4 /* Release */ = {
+		8137A23B22CC835800E43AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -366,71 +278,40 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		81ED323E222FB5170076CBA4 /* Debug */ = {
+		8137A25722CC837D00E43AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78D202D928D697AB52F515E3 /* Pods-client.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = client/client.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C9V674GA4T;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-					"$(inherited)",
-					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
-					"$(inherited)",
-					"PB_FIELD_32BIT=1",
-					"PB_NO_PACKED_STRUCTS=1",
-					"PB_ENABLE_MALLOC=1",
-					"ENABLE_FCMNOTIFIER_PLUGIN=1",
-				);
 				INFOPLIST_FILE = client/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ucreates.client;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucreatets.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		81ED323F222FB5170076CBA4 /* Release */ = {
+		8137A25822CC837D00E43AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E89113259D8A586595EAF5D3 /* Pods-client.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = client/client.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C9V674GA4T;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-					"$(inherited)",
-					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
-					"$(inherited)",
-					"PB_FIELD_32BIT=1",
-					"PB_NO_PACKED_STRUCTS=1",
-					"PB_ENABLE_MALLOC=1",
-					"ENABLE_FCMNOTIFIER_PLUGIN=1",
-				);
 				INFOPLIST_FILE = client/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ucreates.client;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucreatets.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81ED3208222FB4EA0076CBA4 /* Build configuration list for PBXProject "objectivec" */ = {
+		8137A22122CC835600E43AE7 /* Build configuration list for PBXProject "objectivec" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81ED3221222FB4EC0076CBA4 /* Debug */,
-				81ED3222222FB4EC0076CBA4 /* Release */,
+				8137A23A22CC835800E43AE7 /* Debug */,
+				8137A23B22CC835800E43AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81ED323D222FB5170076CBA4 /* Build configuration list for PBXNativeTarget "client" */ = {
+		8137A25622CC837D00E43AE7 /* Build configuration list for PBXNativeTarget "client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81ED323E222FB5170076CBA4 /* Debug */,
-				81ED323F222FB5170076CBA4 /* Release */,
+				8137A25722CC837D00E43AE7 /* Debug */,
+				8137A25822CC837D00E43AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 81ED3205222FB4EA0076CBA4 /* Project object */;
+	rootObject = 8137A21E22CC835600E43AE7 /* Project object */;
 }

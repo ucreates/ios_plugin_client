@@ -1,4 +1,3 @@
-import iOSSwiftPlugin
 // ======================================================================
 // Project Name    : ios_plugin_client
 //
@@ -9,6 +8,7 @@ import iOSSwiftPlugin
 // We hope the tips and helpful in developing.
 // ======================================================================
 import UIKit
+import iOSSwiftPlugin
 class FCMNotifierPluginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
